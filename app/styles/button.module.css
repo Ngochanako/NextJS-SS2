@@ -1,0 +1,15 @@
+.button{
+    border-radius: 5px;
+    border: 1px solid transparent;
+    outline: none;
+    padding: 10px 20px;
+    color: white;
+}
+.button_primary{
+    background-color: blue;
+    
+}
+.button_danger{
+    background-color: rgb(192, 59, 59);
+    
+}

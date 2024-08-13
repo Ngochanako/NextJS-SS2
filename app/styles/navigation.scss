@@ -1,0 +1,21 @@
+.nav{
+    margin-top: 100px;
+    padding: 20px 100px;
+    background-color: blue;
+    color: white;
+    .ul{
+       display: flex;
+       justify-content: space-between;
+       .li-logo{
+          font-weight: 600;
+       }
+       .list-li{
+        display: flex;
+        gap:20px; 
+        .li-list-item{
+            color: rgb(170, 164, 164);
+        }     
+       }
+    }
+
+}

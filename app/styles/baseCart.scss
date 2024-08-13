@@ -1,0 +1,19 @@
+.base-cart{
+    margin:50px;
+    width: 250px;
+    border: 1px solid rgb(204, 200, 200);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(207, 203, 203);
+    .cart-img{
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .cart-content{
+        padding: 10px;
+        text-align: center;
+        .title{
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+}

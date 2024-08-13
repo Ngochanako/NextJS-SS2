@@ -1,0 +1,27 @@
+.container{
+    margin-top: 50px;
+    width: 400px;
+    box-shadow: 5px 5px 5px grey;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.content{
+    color: grey;
+}
+.buttonCancel{
+    border: 1px solid grey;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.buttonDelete{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+}
