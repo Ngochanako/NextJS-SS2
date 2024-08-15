@@ -11,11 +11,17 @@ import Bai7 from './components/Bai7'
 import Bai9 from './components/Bai9'
 import Bai10 from './components/Bai10'
 import Bai8 from './components/Bai8'
+import Bai11 from './components/Bai11'
+import BaseSelect from './components/BaseSelect'
+import Bai12 from './components/Bai12'
+import Calendar from 'react-datepicker/dist/calendar'
+import Calenderv from './components/Calenderv'
+
  
 export default function Page() {
   return (
    <div>
-       <Bai1/>
+        <Bai1/>
        <Bai2/>
        <Bai3/>
        <Bai4/>
@@ -25,6 +31,9 @@ export default function Page() {
        <Bai8/>
        <Bai9/>
        <Bai10/>
+       <Bai11/> 
+        <Bai12/> 
+       
    </div>
   )
 }

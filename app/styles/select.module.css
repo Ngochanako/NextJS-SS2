@@ -1,0 +1,40 @@
+.container{
+    margin: 50px;
+    width: 300px;
+    position: relative;
+    font-size: 14px;
+}
+.select{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1.5px solid rgb(203, 197, 197);
+    border-radius: 5px;
+    align-items: center;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(188, 184, 184);
+    border-radius: 5px;
+    position: absolute;
+    top:50px;
+    width: 100%;
+    background-color:rgb(33, 32, 32);
+    color: white;
+    box-shadow: 2px 2px 2px rgb(120, 118, 118);
+    height: 300px;
+    overflow: auto;
+}
+.hiddenOption{
+    display: none;
+}
+.itemOption{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.itemOption:hover{
+    color: grey;
+}

@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid orange;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+    padding: 10px;
+    margin: 50px;
+    width: 400px;
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    main{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        ul{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto;
+            gap:20px;
+            li{
+                border-radius: 5px;
+                padding: 5px;
+            }
+        }
+        button{
+            background-color: yellowgreen;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    }
+}
+.active{
+    background-color: red;
+    color: white;
+}
+
+.selectDay{
+    border: 1px solid red;
+}
